@@ -22,12 +22,12 @@ const display = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Sanvi Deep (Gojo) :: gojo.codes",
+  title: "Sanvi Deep (Gojo) :: Gojo Portfolio",
   description:
     "Sanvi Deep aka Gojo. Biotech Engineer @ DTU 2026. CEO of Raechal AI. Full stack dev, ML/DL, video editor, dancer, Naruto fan.",
   metadataBase: new URL("https://gojo.codes"),
   openGraph: {
-    title: "Sanvi Deep (Gojo) :: gojo.codes",
+    title: "Sanvi Deep (Gojo) :: Gojo Portfolio",
     description:
       "CEO @ Raechal AI. Biotech grad turned founder. Code, ML/DL, AfterEffects, hip-hop. Part-time yapper, full-time introvert.",
   },

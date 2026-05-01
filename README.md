@@ -1,6 +1,6 @@
 <div align="center">
 
-# `gojo.codes` — Sanvi (Gojo) Portfolio
+# Gojo Portfolio . Sanvi (Gojo)
 
 **A genz-coded, cyberpunk-flavoured developer portfolio with a working arcade.**
 Built with Next.js 15, Tailwind, Framer Motion, and a generous amount of Diet Coke.
@@ -117,37 +117,37 @@ src/
 Fork the repo, then edit these data blocks. No framework gymnastics, just plain TypeScript arrays.
 
 ### 1. Identity + headline
-[`src/components/Hero.tsx`](src/components/Hero.tsx) — name, alias, role chips, JSON identity card
+[`src/components/Hero.tsx`](src/components/Hero.tsx). name, alias, role chips, JSON identity card
 
 ### 2. Bio + stats
-[`src/components/About.tsx`](src/components/About.tsx) — three paragraphs + 8 stat cells
+[`src/components/About.tsx`](src/components/About.tsx). three paragraphs + 8 stat cells
 
 ### 3. Tech stack groups
-[`src/components/Stack.tsx`](src/components/Stack.tsx) — `groups` array. Add or remove categories.
+[`src/components/Stack.tsx`](src/components/Stack.tsx). `groups` array. Add or remove categories.
 
 ### 4. Projects
-[`src/components/Projects.tsx`](src/components/Projects.tsx) — `projects` array with `title`, `tag`, `href`, `desc`, `stack`, `accent` gradient.
+[`src/components/Projects.tsx`](src/components/Projects.tsx). `projects` array with `title`, `tag`, `href`, `desc`, `stack`, `accent` gradient.
 
 ### 5. Experience timeline
-[`src/components/Experience.tsx`](src/components/Experience.tsx) — `jobs` array with bullets and tone color.
+[`src/components/Experience.tsx`](src/components/Experience.tsx). `jobs` array with bullets and tone color.
 
 ### 6. Floating scene
-[`src/components/FloatingScene.tsx`](src/components/FloatingScene.tsx) — `items` array. Mix emojis or `/your-image.png` paths. Tweak `top`, `left`, `depth`, `glow`.
+[`src/components/FloatingScene.tsx`](src/components/FloatingScene.tsx). `items` array. Mix emojis or `/your-image.png` paths. Tweak `top`, `left`, `depth`, `glow`.
 
 ### 7. Anime / books / music
-[`src/components/Anime.tsx`](src/components/Anime.tsx) — `stanList`, `watching`, `reads`, `music`.
+[`src/components/Anime.tsx`](src/components/Anime.tsx). `stanList`, `watching`, `reads`, `music`.
 
 ### 8. Sports
-[`src/components/Sports.tsx`](src/components/Sports.tsx) — drop in your own team and athlete images in `/public`.
+[`src/components/Sports.tsx`](src/components/Sports.tsx). drop in your own team and athlete images in `/public`.
 
 ### 9. Contact links
-[`src/components/Contact.tsx`](src/components/Contact.tsx) — `links` array.
+[`src/components/Contact.tsx`](src/components/Contact.tsx). `links` array.
 
 ### 10. Metadata + domain
-[`src/app/layout.tsx`](src/app/layout.tsx) — title, description, `metadataBase` URL.
+[`src/app/layout.tsx`](src/app/layout.tsx). title, description, `metadataBase` URL.
 
 ### Theme colors
-[`tailwind.config.ts`](tailwind.config.ts) — `neon.violet / pink / cyan / lime` tokens. Change once, propagates everywhere.
+[`tailwind.config.ts`](tailwind.config.ts). `neon.violet / pink / cyan / lime` tokens. Change once, propagates everywhere.
 
 ---
 
@@ -193,8 +193,8 @@ Vercel auto-detects Next.js. No config needed.
 
 ## Customization tips
 
-- **Replace the cursor dot** in [`CursorDot.tsx`](src/components/CursorDot.tsx) — change colour or shape.
-- **Swap fonts** in [`layout.tsx`](src/app/layout.tsx) — uses `next/font/google`. Try `Space_Mono`, `Geist`, `Inter`.
+- **Replace the cursor dot** in [`CursorDot.tsx`](src/components/CursorDot.tsx). change colour or shape.
+- **Swap fonts** in [`layout.tsx`](src/app/layout.tsx). uses `next/font/google`. Try `Space_Mono`, `Geist`, `Inter`.
 - **Tone down animations** by lowering `depth` in `FloatingScene.tsx` items, or removing the `glitch` class on the headline.
 - **Add a /resume.pdf** route by dropping a PDF into `public/` and linking it from `Nav.tsx`.
 - **Swap RCB / F1 images** with your own in `public/`. They are referenced as `/your-image.jpg` from `Sports.tsx`.
