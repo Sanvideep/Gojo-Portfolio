@@ -11,7 +11,7 @@ Built with Next.js 15, Tailwind, Framer Motion, and a generous amount of Diet Co
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-a3e635?style=for-the-badge)](LICENSE)
 
-[**Live Demo**](https://gojo.codes) · [**Fork & Customize**](#-make-it-yours) · [**Report Bug**](https://github.com/Sanvideep/PracticeApp/issues)
+[**Live Demo**](https://gojo.codes) · [**Fork & Customize**](#-make-it-yours) · [**Report Bug**](https://github.com/Sanvideep/Gojo-Portfolio/issues)
 
 </div>
 
@@ -54,8 +54,8 @@ It is the portfolio you would actually want to recruiters to see.
 
 ```bash
 # 1. Clone
-git clone https://github.com/Sanvideep/PracticeApp.git
-cd PracticeApp
+git clone https://github.com/Sanvideep/Gojo-Portfolio.git
+cd Gojo-Portfolio
 
 # 2. Install
 npm install
@@ -178,7 +178,7 @@ Drop them on any page. They self-contain UI + state + keyboard handlers.
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Sanvideep/PracticeApp)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Sanvideep/Gojo-Portfolio)
 
 Or manually:
 
